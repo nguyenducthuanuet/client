@@ -15,10 +15,7 @@ function App() {
       <React.Suspense fallback={loading()}>
         <Switch>
           <Route exact path="/login" name="Login Page" component={Login} />
-          {/* <Route exact path="/login" name="Register" component={Register} /> */}
-          {/* <Route exact path="/404" name="Page 404" component={Page404} />
-        <Route exact path="/403" name="Page 403" component={Page403} />
-        <Route exact path="/500" name="Page 500" component={Page500} /> */}
+      
           <Route path="/" name="Home" component={DefaultLayout} />
         </Switch>
       </React.Suspense>
